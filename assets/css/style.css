@@ -6,15 +6,17 @@ body {
     color: #3a3a3a;
 }
 
+#upper-bar {
+    background:#1cafaf;
+}
+
 .menu {
     list-style: none;
-    margin:0;
-    padding: 0;
-    background:#1cafaf;
+    margin:10px;
+    padding: 10px;
     border-radius: 05;
     letter-spacing: 4px;
     overflow: auto;
-
 }
 
 .menu li {
@@ -31,26 +33,23 @@ body {
 }
 
 .menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
 }
 
 h1, h2 {
     font-family: Merriweather, sans-serif;
     letter-spacing: 4px;
     color:#252525;
-
 }
 
 #logo {
+    margin: 10px;
+    padding: 10px;
     float: left;
     font-size: 200%;
     text-transform: uppercase;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
 }
