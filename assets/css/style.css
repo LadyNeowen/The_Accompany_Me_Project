@@ -91,9 +91,8 @@ h1, h2 {
     height: 300px;
     margin: 5px;
     padding: 10px;
-    top: 120px;
+    top: 95px;
     position: absolute;
-    line-height: 35px;
     text-align: center;
     left: 1250px;
 
@@ -105,9 +104,8 @@ h1, h2 {
     height: 300px;
     margin: 5px;
     padding: 10px;
-    top: 90px;
+    top: 80px;
     position: absolute;
-    line-height: 35px;
     text-align: center;
     left: 1600px;
 }
@@ -121,17 +119,14 @@ h1, h2 {
     padding: 10px;
     top: 500px;
     position: absolute;
-    line-height: 30px;
     text-align: center;
     left: 1425px;
-
-   background-color:#e9b953;
-
 }
 
 p {
     font-family: Merryweather, sans-serif;
     font-size: 120%;
+    line-height: 20px;
     color:#252525;
     font-weight: bolder;
 }
@@ -141,6 +136,7 @@ p {
     font-size: 200%;
     width: 200px;
     height: 200px;
+    line-height: 35px;
     border-radius: 50%;
     border: 1px solid #252525;
     background-color:#1cafaf;
@@ -153,8 +149,20 @@ p {
     width: 150px;
     height: 150px;
     text-align: center;
+    line-height: 35px;
     border-radius: 50%;
     border: 1px solid #252525;
     background-color:#6faf1c;
 }
 
+#love2 {
+
+    padding: 60px;
+    font-size: 200%;
+    width: 200px;
+    height: 250px;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid #252525;
+    background-color:#e9b953;
+}
