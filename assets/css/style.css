@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+body {
+    font-family: Merriweather, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+.menu {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    background:#1cafaf;
+    border-radius: 05;
+    letter-spacing: 4px;
+    overflow: auto;
+
+}
+
+.menu li {
+    float: right;
+}
+
+.menu li a {
+    font-size: 150%;
+    text-decoration: none;
+    color:#fff;
+    padding: 15px 20px;
+    display: block;
+    border-bottom: none;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+h1, h2 {
+    font-family: Merriweather, sans-serif;
+    letter-spacing: 4px;
+    color:#252525;
+
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
