@@ -62,8 +62,35 @@ h1, h2 {
 #hero-img {
     width: 1200px;
     height: 800px;
-    left:auto;
+    left:0;
     float: left;
     position: absolute;
     border-radius: 8px;
+    top: 88px;
+}
+
+#personal {
+    font-size: 120%;
+    font-family: Merriweather, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+    top: 120px;
+    right: 750px;
+    border-radius: 8px;
+    position: absolute;
+    opacity: 0.6;
+
+    background-color: #1cafaf;
+
+}
+
+#right-about {
+    width: 100px;
+    height: 150px;
+    background-color: #af461c;
+    right:0;
 }
