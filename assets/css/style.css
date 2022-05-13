@@ -46,10 +46,24 @@ h1, h2 {
     color:#252525;
 }
 
-#logo {
+.logo {
     margin: 10px;
     padding: 10px;
     float: left;
     font-size: 200%;
     text-transform: uppercase;
+}
+.logo a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#fff;
+}
+
+#hero-img {
+    width: 1200px;
+    height: 800px;
+    left:auto;
+    float: left;
+    position: absolute;
+    border-radius: 8px;
 }
