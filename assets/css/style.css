@@ -257,3 +257,11 @@ footer {
        width: 200px;
        height: 100px;
    }
+
+   .form-section {
+       width: 500px;
+       height:300px;
+       box-sizing: border-box;
+       border-style: groove;
+       border-color: 2px solid #1cafaf;
+   }
