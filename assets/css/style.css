@@ -23,7 +23,7 @@ body {
     text-align: center;
     list-style: none;
     letter-spacing: 4px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .menu li {
@@ -210,3 +210,33 @@ footer {
     font-size: 350%;
     color:#070606;
 }
+
+.gallery-inner {
+        clear: both;
+        line-height: 0;
+        column-count: 4;
+        column-gap: 0px;
+        margin-bottom: 80px;
+        margin-top: 15px;
+    }
+    
+    .gallery-inner > img {
+        width: 100%;
+    }
+
+
+    #signup-img {
+        width: 1000px;
+        height: 800px;
+        margin-right: 1px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        float: right;
+        position: relative;
+    }
+
+    .preference {
+        width: 100px;
+        height: 50px;
+        margin-left: 5px;
+    }
