@@ -225,8 +225,8 @@ footer {
 
 
     #signup-img {
-        width: 1000px;
-        height: 800px;
+        width: 1200px;
+        height: 900px;
         margin-right: 1px;
         margin-top: 15px;
         margin-bottom: 20px;
@@ -234,8 +234,11 @@ footer {
         position: relative;
     }
     .signup2 {
+        font-family: Merriweather, sans-serif;
+        font-size: 200%;
         width: 200px;
         height: 20px;
+        color: #df5f0a;
         top: 200px;
         margin-left: 10px;
         text-align: left;
@@ -253,15 +256,41 @@ footer {
         position: absolute;
     }
 
-   #about {
-       width: 200px;
-       height: 100px;
+   .about {
+       height:100px;
+       size:200%;
    }
 
-   .form-section {
-       width: 500px;
-       height:300px;
-       box-sizing: border-box;
-       border-style: groove;
-       border-color: 2px solid #1cafaf;
+   #button {
+       width: 200px;
+       height: 40px;
+       background-color:  #df5f0a;
+       color: #070606;
+       font-size: 100%;
+       font-weight: bold;
+    
    }
+
+   #button:hover {
+    background-color:#fafafa;
+    color:#df5f0a;
+}
+
+#button :active {
+    background-color: #518112;
+    color: #070606;
+}
+
+/**
+.btn:active {
+    margin-left: 1px 1px 0;
+    box-shadow: -1px -1px 1px #000;
+    outline: 1px solid #000000;
+    -moz-outline-radius: 7px;
+    background-image: linear-gradient(to top, #97e8ae, #3be36b);
+  }
+  #btnControl:checked + label {
+    width: 70px;
+    height: 74px;
+    line-height: 74px;
+  }
