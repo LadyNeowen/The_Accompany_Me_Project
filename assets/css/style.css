@@ -4,17 +4,24 @@ body {
     font-family: Merriweather, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    min-height: 125vh;
+    display: flex;
+    flex-direction: column;
 }
 
-#upper-bar {
-    background:#1cafaf;
+#head {
+    width: 100%;
+    height: 90px;
+    background-color: #1cafaf;
+    margin-left: 0px;
+    display: flexbox;
 }
 
 .menu {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
     list-style: none;
-    margin:10px;
-    padding: 10px;
-    border-radius: 05;
     letter-spacing: 4px;
     overflow: auto;
 }
@@ -47,7 +54,8 @@ h1, h2 {
 }
 
 .logo {
-    margin: 10px;
+    margin: 15px;
+    margin-top:20px;
     padding: 10px;
     float: left;
     font-size: 200%;
@@ -65,7 +73,7 @@ h1, h2 {
     left:0;
     float: left;
     position: absolute;
-    top: 88px;
+    top: 108px;
 }
 
 #personal {
@@ -179,11 +187,26 @@ p {
 .love2 > p {
     position: absolute;
     top: 380px;
-    right: 10px;
 }
 
 footer {
-background-color: #e9b953;
-    position: relative; 
-    left: 0 ; right: 0; bottom: 0; 
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 90px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social > li {
+    display: inline;
+    letter-spacing: 40px;
+}
+
+.social i {
+    font-size: 350%;
+    color:#070606;
 }
