@@ -104,7 +104,7 @@ h1, h2 {
     height: 300px;
     margin: 5px;
     padding: 10px;
-    top: 80px;
+    top: 70px;
     position: absolute;
     text-align: center;
     left: 1600px;
@@ -116,11 +116,11 @@ h1, h2 {
     width: 250px;
     height: 300px;
     margin: 5px;
-    padding: 10px;
+    padding: 5px;
     top: 500px;
     position: absolute;
     text-align: center;
-    left: 1425px;
+    left: 1400px;
 }
 
 p {
@@ -143,7 +143,6 @@ p {
 }
 
 #come-to2 {
-
     padding: 25px;
     font-size: 200%;
     width: 150px;
@@ -156,8 +155,7 @@ p {
 }
 
 #love2 {
-
-    padding: 60px;
+    padding: 40px;
     font-size: 200%;
     width: 200px;
     height: 250px;
@@ -165,4 +163,27 @@ p {
     border-radius: 50%;
     border: 1px solid #252525;
     background-color:#e9b953;
+}
+
+.company > p {
+    position: absolute;
+    top: 300px;
+}
+
+.come-to > p {
+    position: absolute;
+    right: 40px;
+    top: 250px;
+}
+
+.love2 > p {
+    position: absolute;
+    top: 380px;
+    right: 10px;
+}
+
+footer {
+background-color: #e9b953;
+    position: relative; 
+    left: 0 ; right: 0; bottom: 0; 
 }
