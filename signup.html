@@ -18,13 +18,13 @@
         <ul class="menu">
             
             <li>
-                <a href="signup.html">Sign up</a>
+                <a href="signup.html" class="active">Sign up</a>
             </li>
             <li>
-                <a href="gallery.html"class="active">Gallery</a>
+                <a href="gallery.html">Gallery</a>
             </li>
             <li>
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html">Home</a>
             </li>
         </ul>
     </nav>
@@ -36,16 +36,29 @@
         <img id="signup-img" src="/assets/images/signup1.avif" alt="lady and dog staring at the sunset">
     </div>
 </section>
-<div class="preference">
-    <label for="pet">Are you a pet owner?</label>
-    <input type="checkbox" name="Pet owner" id="owner">
-</div>
 
-<div class="preference">
-    <label for="peas">Are you a pet-care volunteer?</label>
-    <input type="checkbox" name="volunteer" id="volunteer">
-</div>
-</section>
+    <section class="form-section">
+    <form method="post" action="https://formdump.codeinstitute.net/"></form>
+    <div>
+        <h2 class="signup2">Sign Up Here!</h2>
+    </div>
+
+    <div class="signup-inner">
+    <label for="fname">First Name</label>
+    <input id="fname" type="text" name="first_name" required>
+     <br>
+     <br>
+    <label for="lname">Last Name</label>
+    <input id="lname" type="text" name="last_name" required>
+     <br>
+     <br>
+    <label for="email">Email Address</label>
+        <input class="text-input" id="email" type="email" name="email_address" required>
+     <br>
+     <br>
+    <label for="about">Tell Us About Yourself</label>
+    <input id="about" type="text" name="about_you" required>
+    </div>
 
     <footer> 
         <ul class="social">

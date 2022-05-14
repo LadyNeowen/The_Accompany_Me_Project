@@ -32,19 +32,18 @@ body {
 
 .menu li a {
     font-size: 150%;
-    text-decoration: none;
     color:#fff;
     padding: 15px 20px;
     display: block;
-    border-bottom: none;
+    text-decoration: none;
 }
 
 .menu a:hover {
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
-    border-bottom: 2px solid #3a3a3a;
+    border-block: 1px solid #3a3a3a;
 }
 
 h1, h2 {
@@ -234,9 +233,27 @@ footer {
         float: right;
         position: relative;
     }
+    .signup2 {
+        width: 200px;
+        height: 20px;
+        top: 200px;
+        margin-left: 10px;
+        text-align: left;
+        text-transform: uppercase;
+        position: absolute;
 
-    .preference {
-        width: 100px;
-        height: 50px;
-        margin-left: 5px;
     }
+
+    .signup-inner {
+        width: 100px;
+        height: 200px;
+        top: 350px;
+        margin-left: 10px;
+        float:left;
+        position: absolute;
+    }
+
+   #about {
+       width: 200px;
+       height: 100px;
+   }
