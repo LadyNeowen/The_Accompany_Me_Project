@@ -8,10 +8,8 @@ body {
 }
 
 #head {
-    width: 100%;
     height: 90px;
     background-color: #1cafaf;
-    margin-left: 0px;
 }
 
 .menu {
@@ -20,7 +18,6 @@ body {
     text-align: center;
     list-style: none;
     letter-spacing: 5px;
-    overflow: hidden;
 }
 
 .menu li {
@@ -103,7 +100,7 @@ h1, h2 {
     width: 100%;
     height: 300px;
     margin: auto;
-    padding: 10px;
+    padding: 50px;
     text-align: center;
 
 }
@@ -112,7 +109,7 @@ h1, h2 {
     width: 100%;
     height: 150px;
     margin: auto;
-    padding: 10px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -122,14 +119,14 @@ h1, h2 {
     width:100%;
     height: 300px;
     margin: auto;
-    padding: 10px;
+    padding: 50px;
     text-align: center;
 }
 
 p {
     font-family: Merryweather, sans-serif;
-    font-size: 130%;
-    line-height: 20px;
+    font-size: 150%;
+    line-height: 25px;
     color:#252525;
 }
 
@@ -149,7 +146,7 @@ p {
     margin: auto;
     font-size: 200%;
     width:200px;
-    height: 100px;
+    height: 75px;
     line-height: 35px;
     border: 1px solid #252525;
     background-color:#6faf1c;
@@ -159,8 +156,8 @@ p {
     padding: 20px;
     margin: auto;
     font-size: 200%;
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 150px;
     line-height: 30px;
     border: 1px solid #252525;
     background-color:#e9b953;
@@ -169,7 +166,6 @@ p {
 .company > p {
     position: relative;
     text-align: center;
-    padding-bottom: 50px;
 
 }
 
@@ -177,38 +173,45 @@ p {
     position: relative;
 }
 
-.love2 > p {
-    position: absolute;
-    top: 380px;
+.love > p {
+    position: relative;
 }
 
-footer {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
+#bottomflex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+#footer-bar {
     width: 100%;
-    height: 90px;
+    margin: auto;
+    align-self: flex-end;
+    align-items: flex-end;
+}
+
+#footer-c {
+    text-align: center;
+    font-size: 80%;
+    text-decoration: underline;
 }
 
 .social {
     text-align: center;
+    padding: 0;
 }
 
 .social > li {
     display: inline;
+    width: 100%;
+    margin: auto;
     letter-spacing: 40px;
 }
 
 .social i {
     font-size: 350%;
     color:#070606;
-}
-#footer-c {
-    text-align: center;
-    position: relative;
-    bottom: 15px;
-    font-size: 80%;
-    text-decoration: underline;
 }
 
 .gallery-inner {
@@ -228,9 +231,7 @@ footer {
     #signup-img {
         width: 1200px;
         height: 900px;
-        margin-right: 1px;
-        margin-top: 15px;
-        margin-bottom: 20px;
+        margin-top: 10px;
         float: right;
         position: relative;
     }
@@ -240,28 +241,32 @@ footer {
         width: 200px;
         height: 20px;
         color: #df5f0a;
-        top: 200px;
         margin-left: 10px;
         text-align: left;
         text-transform: uppercase;
-        position: absolute;
+        top: 150px;
+        position:relative;
 
+    }
+    .form-section{
+        display: flex;
+        flex-direction: column;
+        font-family: Merriweather, sans-serif;
+        font-size: 120%;
+        font-weight: bolder;
+        float: left;
     }
 
     .signup-inner {
-        width: 100px;
+        width: 200px;
         height: 200px;
-        top: 350px;
+        margin: auto;
+        top: 250px;
         margin-left: 10px;
         float:left;
-        position: absolute;
+        position: relative;
     }
-.form-section{
-    font-family: Merriweather, sans-serif;
-    font-size: 120%;
-    font-weight: bolder;
-    
-}
+
    .about {
        columns: auto;
        row: 4;
@@ -282,36 +287,17 @@ footer {
     color:#df5f0a;
 }
 
+#bottomflex {
+    display: flex;
+}
+
+#contact {
+    width: 100%;
+    margin: auto;
+
+}
+
 
 /*For larger to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-#hero-img {
-    width: 100%;
-    height: 80%;
-}
-
-    #personal {
-        display: flex;
-        justify-content: end;
-        align-content: flex-end;
-    }
-
-    .company {
-        width: 100%;
-        float: left;
-        padding: 0;
-        clear: both;
-    }
-
-    .come-to {
-        width: 100%;
-        padding: 0;
-    }
-
-    .love {
-        width: 100%;
-        padding: 0;
-    }
-
-    }
