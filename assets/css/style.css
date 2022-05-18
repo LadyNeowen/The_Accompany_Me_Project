@@ -7,6 +7,10 @@ body {
     min-height: 125vh;
 }
 
+#bg-p3 {
+    background-color: lightgray;
+}
+
 #head {
     height: 90px;
     background-color: #1cafaf;
@@ -177,37 +181,30 @@ p {
     position: relative;
 }
 
-#bottomflex {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-
-}
 
 #footer-bar {
-    width: 100%;
-    margin: auto;
-    align-self: flex-end;
-    align-items: flex-end;
-}
-
-#footer-c {
-    text-align: center;
-    font-size: 80%;
-    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .social {
-    text-align: center;
-    padding: 0;
-}
-
-.social > li {
-    display: inline;
     width: 100%;
     margin: auto;
+    text-align: center;
+    display: inline;
     letter-spacing: 40px;
-}
+    }
+
+    #footer-c {
+        width: 200px;
+        height: 40px;
+        margin-top: 40px;
+        text-align: center;
+        position: absolute;
+        font-size: 60%;
+        text-decoration: underline;
+    }
 
 .social i {
     font-size: 350%;
@@ -287,9 +284,6 @@ p {
     color:#df5f0a;
 }
 
-#bottomflex {
-    display: flex;
-}
 
 #contact {
     width: 100%;
