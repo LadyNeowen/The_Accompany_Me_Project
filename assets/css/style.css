@@ -5,8 +5,6 @@ body {
     font-weight: 300;
     color: #3a3a3a;
     min-height: 125vh;
-    display: flex;
-    flex-direction: column;
 }
 
 #head {
@@ -14,7 +12,6 @@ body {
     height: 90px;
     background-color: #1cafaf;
     margin-left: 0px;
-    display: flexbox;
 }
 
 .menu {
@@ -70,30 +67,29 @@ h1, h2 {
     color:#fff;
 }
 
-#hero-img {
-    width: 1200px;
-    height: 800px;
-    left:0;
-    float: left;
-    position: absolute;
-    top: 108px;
+#hero-outer {
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
 }
 
 #personal {
-    font-size: 120%;
+    font-size: 150%;
     font-family: Merriweather, sans-serif;
     text-align: center;
     text-transform: capitalize;
-    letter-spacing: 4px;
-    width: 250px;
-    height: 240px;
+    font-weight: bold;
+    color: #070606;
+    letter-spacing: 10px;
+    width: 400px;
+    height: 300px;
     padding: 5px;
-    top: 120px;
-    right: 750px;
-    border-radius: 8px;
+
     position: absolute;
-    opacity: 0.6;
-    background-color: #1cafaf;
+    bottom: 0;
+    right: 600px;
+
 }
 
 .company {
@@ -102,10 +98,7 @@ h1, h2 {
     height: 300px;
     margin: 5px;
     padding: 10px;
-    top: 95px;
-    position: absolute;
     text-align: center;
-    left: 1250px;
 
 }
 
@@ -148,7 +141,6 @@ p {
     width: 200px;
     height: 200px;
     line-height: 35px;
-    border-radius: 50%;
     border: 1px solid #252525;
     background-color:#1cafaf;
 }
@@ -179,8 +171,10 @@ p {
 }
 
 .company > p {
-    position: absolute;
-    top: 300px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+
 }
 
 .come-to > p {
@@ -201,9 +195,6 @@ footer {
     width: 100%;
     height: 90px;
 }
-#footer-c {
-    display: flexbox;
-}
 
 .social {
     text-align: center;
@@ -217,6 +208,13 @@ footer {
 .social i {
     font-size: 350%;
     color:#070606;
+}
+#footer-c {
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    font-size: 80%;
+    text-decoration: underline;
 }
 
 .gallery-inner {
@@ -294,14 +292,15 @@ footer {
 /*For larger to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-    #hero-img {
-        width: 100%;
-    }
+#hero-img {
+    width: 100%;
+    height: 80%;
+}
 
     #personal {
-        width: 20%;
-        height: 30%;
-        margin: 0;
+        display: flex;
+        justify-content: end;
+        align-content: flex-end;
     }
 
     .company {
