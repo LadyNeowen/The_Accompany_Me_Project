@@ -224,44 +224,50 @@ p {
         width: 100%;
     }
 
+    #signup-outer {
+        display: flex;
+        justify-content: right;
+    }
 
     #signup-img {
         width: 1200px;
         height: 900px;
+        margin: 0;
+        padding: 0;
         margin-top: 10px;
-        float: right;
-        position: relative;
+
     }
+
+    .form-section{
+        display: flex;
+    
+        margin: 0;
+        padding: 0;
+        font-family: Merriweather, sans-serif;
+        font-size: 120%;
+        font-weight: bolder;
+        color:#df5f0a;
+    }
+
+
     .signup2 {
         font-family: Merriweather, sans-serif;
         font-size: 200%;
         width: 200px;
         height: 20px;
         color: #df5f0a;
-        margin-left: 10px;
-        text-align: left;
+        margin-left: 0;
         text-transform: uppercase;
-        top: 150px;
-        position:relative;
 
-    }
-    .form-section{
-        display: flex;
-        flex-direction: column;
-        font-family: Merriweather, sans-serif;
-        font-size: 120%;
-        font-weight: bolder;
-        float: left;
     }
 
     .signup-inner {
-        width: 200px;
+        position: relative;
+        width: 100px;
         height: 200px;
         margin: auto;
-        top: 250px;
         margin-left: 10px;
-        float:left;
-        position: relative;
+        top: -800px;
     }
 
    .about {
