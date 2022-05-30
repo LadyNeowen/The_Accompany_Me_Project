@@ -452,8 +452,8 @@ p {
     }
 
     .logo {
-        font-size: 175%;
-        margin-top: 20px;
+        font-size: 125%;
+        margin-top: 25px;
     }
 
     .personal {
@@ -466,4 +466,66 @@ p {
         width:100%;
     }
 
+    .company, .come-to, .love {
+        width: 75%;
+        font-size: 80%;
+    }
+
+    #comp2 {
+        width: 300px;
+    }
+
+}
+
+/*For small screen sizes from 650px wide and down */
+@media screen and (max-width:650px) {
+
+.menu {
+    width: 100%;
+    font-size: 25%;
+}
+
+.logo {
+    font-size: 75%;
+    margin-top: 30px;
+}
+
+.menu {
+    clear: right;
+    float: right;
+    margin-bottom: 20px;
+    font-size: 60%;
+    margin-top: 20px;
+
+}
+
+.personal {
+    font-size: 75%;
+}
+
+.company, .come-to, .love {
+    width: 100%;
+    font-size: 75%;
+}
+
+#comp2 {
+    width:50%;
+    line-height: 20px;
+}
+
+#come-to2 {
+    width:30%;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+#love2 {
+    width:50%;
+    line-height: 20px;
+}
+
+#contact-by {
+    width: 60%;
+    font-size: 75%;
+}
 }
