@@ -91,22 +91,21 @@ h1, h2 {
 
 #hero-img {
     width: 100%;
-    overflow: hidden;
 }
 
-#personal {
-    font-size: 150%;
+.personal {
+    font-size: 140%;
     font-family: Merriweather, sans-serif;
     text-align: center;
     text-transform: capitalize;
     font-weight: bold;
     color: #070606;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     width: 400px;
     height: 300px;
     padding: 5px;
     position: absolute;
-    top: 240px;
+    top: 200px;
     right: 0;
 }
 
@@ -351,6 +350,26 @@ p {
 
 }
 
+/*For very large to large screen size from 1395px wide and down*/
+@media screen and (max-width:1395px) {
+
+    #hero-img {
+        width: 100%;
+    }
+
+    .personal {
+        width: 25%;
+    }
+
+    #reasons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+}
 
 /*For larger to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
@@ -368,11 +387,10 @@ p {
         height: 1200px;
         margin: 0 auto;
     }
-    #personal {
-        width: 50%;
-        height: 200px;
-        font-size: 150%;
+    .personal {
+        width: 25%;
         margin: auto;
+
         
         }
 
@@ -397,18 +415,55 @@ p {
         flex: 1;
     }
 
-    #menu {
+    .menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height:25px;
+        float: right;
     }
 
-   #personal {
-    width: 50%;
+   .personal {
+    width: 25%;
     height: 200px;
-    font-size: 110%;
+    font-size: 120%;
 
 }
+}
+
+/*For small screen sizes from 800px wide and down */
+@media screen and (max-width:800px) {
+
+    
+    #hero-img {
+        width:100%;
+
+    }
+
+    .menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height:25px;
+        float: right;
+        font-size: 90%;
+    }
+
+    .logo {
+        font-size: 175%;
+        margin-top: 20px;
+    }
+
+    .personal {
+        width: 25%;
+        font-size: 110%;
+    
+    }
+
+    #head {
+        width:100%;
+    }
+
 }
