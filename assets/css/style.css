@@ -34,7 +34,6 @@ body {
     text-align: center;
     list-style: none;
     font-size:20px;
-    letter-spacing: 5px;
     height: inherit;
     display: flex;
 }
@@ -64,7 +63,6 @@ body {
 
 h1, h2 {
     font-family: Merriweather, sans-serif;
-    letter-spacing: 4px;
     color:#252525;
 }
 
@@ -100,7 +98,6 @@ h1, h2 {
     text-transform: capitalize;
     font-weight: bold;
     color: #070606;
-    letter-spacing: 5px;
     width: 400px;
     height: 300px;
     padding: 5px;
@@ -257,6 +254,7 @@ p {
         position: absolute;
         font-size: 60%;
         text-decoration: underline;
+        pointer-events: none;
     }
 
 .social i {
@@ -528,4 +526,19 @@ p {
     width: 60%;
     font-size: 75%;
 }
+
+/*For small screen sizes from 547px wide and down */
+@media screen and (max-width:547px) {
+
+    #head {
+        flex-flow: column;
+        height: 130px;
+    }
+    
+    .logo {
+        margin-top: 20px;
+        margin: 0;
+        text-align: center;
+
+    }
 }
