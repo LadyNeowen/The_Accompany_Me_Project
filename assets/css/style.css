@@ -313,7 +313,6 @@ p {
     .signup-inner {
         position: relative;
         width: 100px;
-        height: 200px;
         margin: auto;
         margin-left: 10px;
         top: -800px;
@@ -757,7 +756,7 @@ p {
     }
 
 .social {
-    font-size: 60%;
+    font-size: 70%;
 }
 
 #love2 > p {
@@ -767,9 +766,25 @@ p {
 .contact {
     font-size: 100%;
 }
+
 #contact-by {
-    top: -120px;
+    width: 60%;
 }
 
+}
 
+/*For small screen sizes from 402px wide and down */
+@media screen and (max-width:402px) {
+
+
+    .signup-inner {
+        top: -250px;
+        font-size: 40%;
+    }
+   #signup-img {
+       width: 100%;
+   }
+ #button {
+     width: 100px;
+ }
 }
