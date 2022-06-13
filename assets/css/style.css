@@ -111,6 +111,7 @@ h1, h2 {
     display: flex;
     flex-direction: row;
     align-content: space-around;
+    padding: 2%;
 }
 
 .company {
@@ -118,7 +119,7 @@ h1, h2 {
     width: 100%;
     height: 300px;
     margin: auto;
-    padding: 30px;
+    padding-top: 5%;
     text-align: center;
 
 }
@@ -127,7 +128,7 @@ h1, h2 {
     width: 100%;
     height: 300px;
     margin: auto;
-    padding: 50px;
+    padding-top: 5%;
     text-align: center;
 }
 
@@ -136,7 +137,7 @@ h1, h2 {
     width:100%;
     height: 300px;
     margin: auto;
-    padding: 50px;
+    padding-top: 5%;
     text-align: center;
 }
 
@@ -151,8 +152,8 @@ p {
     padding: 20px;
     margin: auto;
     font-size: 250%;
-    width: 500px;
-    line-height: 35px;
+    width: 350px;
+    line-height: 40px;
     border: 1px solid #252525;
     background-color:#1cafaf;
 }
@@ -161,26 +162,25 @@ p {
     padding: 25px;
     margin: auto;
     font-size: 250%;
-    width:300px;
-    line-height: 35px;
+    width:250px;
+    line-height: 40px;
     border: 1px solid #252525;
     background-color:#6faf1c;
 }
 
 #love2 {
     padding: 20px;
+    padding-bottom: 25px;
     margin: auto;
     font-size: 250%;
     width: 400px;
-    height: 150px;
-    line-height: 35px;
+    line-height: 40px;
     border: 1px solid #252525;
     background-color:#e9b953;
 }
 
 .company > p {
     position: relative;
-    text-align: center;
     padding-top: 20px;
 
 }
@@ -200,6 +200,7 @@ p {
     font-size: 120%;
     margin: 30px;
     padding-top: 50px;
+    
 }
 
 #contact-by {
@@ -238,8 +239,7 @@ p {
 }
 
 .social {
-    width: 100%;
-    margin: auto;
+
     text-align: center;
     display: inline;
     letter-spacing: 40px;
@@ -280,8 +280,7 @@ p {
     }
 
     #signup-img {
-        width: 1200px;
-        height: 900px;
+        width: 100%;
         margin: 0;
         padding: 0;
         margin-top: 10px;
@@ -304,10 +303,10 @@ p {
         font-family: Merriweather, sans-serif;
         font-size: 200%;
         width: 200px;
-        height: 20px;
         color: #df5f0a;
         margin-left: 0;
         text-transform: uppercase;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
     }
 
@@ -347,8 +346,8 @@ p {
 
 }
 
-/*For very large to large screen size from 1395px wide and down*/
-@media screen and (max-width:1395px) {
+/*For very large to large screen size from 1375px wide and down*/
+@media screen and (max-width:1375px) {
 
     #hero-img {
         width: 100%;
@@ -362,10 +361,30 @@ p {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        width: 65%;
-        height: 1200px;
         margin: 0 auto;
     }
+
+    .company {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    padding-top: 5%;
+    }
+
+    .come-to, .love {
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+.company, .come-to, .love > p {
+    width: 50%;
+    left: 25%;
+    
+}
+
 }
 
 /*For larger to medium screen size from 1200px wide and down */
@@ -380,25 +399,56 @@ p {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        width: 65%;
-        height: 1200px;
         margin: 0 auto;
+
     }
+
     .personal {
         width: 25%;
         margin: auto;
-
-        
         }
 
-.company, .come-to, .love {
+.company
+{
     width: 100%;
-    font-size: 100%;
-    margin: 0 auto;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    padding: 0;
+    }
+
+
+.come-to, .love {
+    width: 100%;
+    margin: auto;
+    text-align: center;
     padding: 0;
 }
 
+.signup-inner {
+    font-size: 80%;
+    top: -700px;
 }
+
+#button {
+    width: 200%;
+}
+
+}
+
+/*For medium screen sizes from 1030px wide and down */
+@media screen and (max-width:1030px) {
+
+    .signup-inner {
+        font-size: 80%;
+        top: -600px;
+    }
+
+    #footer-bar {
+        font-size: 90%;
+    }
+}
+
 
 /*For medium screen sizes from 950px wide and down */
 @media screen and (max-width:950px) { 
@@ -410,6 +460,7 @@ p {
 
     .logo{
         flex: 1;
+        font-size: 200%;
     }
 
     .menu {
@@ -427,10 +478,59 @@ p {
     font-size: 120%;
 
 }
+
+#signup-img {
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+
 }
 
-/*For small screen sizes from 800px wide and down */
-@media screen and (max-width:800px) {
+.signup-inner {
+    font-size: 70%;
+    top: -500px;
+}
+
+#button {
+    width: 170%;
+}
+
+#fname {
+    width: 100px;
+}
+#lname, #email {
+    width: 120px;
+}
+#about {
+    width: 140px;
+    height: 80px;
+}
+.signup2 {
+    font-size: 170%;
+}
+}
+
+
+/*For medium screen sizes from 900px wide and down */
+@media screen and (max-width:900px) {
+    .menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height:25px;
+        float: right;
+        font-size: 110%;
+    }
+    .logo {
+        font-size: 180%;
+        margin-top: 20px;
+    }
+
+}
+
+/*For small screen sizes from 820px wide and down */
+@media screen and (max-width:820px) {
 
     
     #hero-img {
@@ -445,18 +545,17 @@ p {
         margin-bottom: 20px;
         line-height:25px;
         float: right;
-        font-size: 90%;
+        font-size: 95%;
     }
 
     .logo {
-        font-size: 125%;
+        font-size: 150%;
         margin-top: 25px;
     }
 
     .personal {
         width: 25%;
         font-size: 110%;
-    
     }
 
     #head {
@@ -472,26 +571,31 @@ p {
         width: 300px;
     }
 
+    .signup-inner {
+        top: -500px;
+    }
+    #button {
+        width: 165%;
+    }
+    #footer-bar {
+        font-size: 80%;
+    }
+
 }
 
-/*For small screen sizes from 650px wide and down */
-@media screen and (max-width:650px) {
-
-.menu {
-    width: 100%;
-    font-size: 25%;
-}
+/*For small screen sizes from 690px wide and down */
+@media screen and (max-width:690px) {
 
 .logo {
-    font-size: 75%;
-    margin-top: 30px;
+    font-size: 130%;
+    margin-top: 25px;
 }
 
 .menu {
     clear: right;
     float: right;
     margin-bottom: 20px;
-    font-size: 60%;
+    font-size: 80%;
     margin-top: 20px;
 
 }
@@ -500,9 +604,16 @@ p {
     font-size: 75%;
 }
 
-.company, .come-to, .love {
+.company {
     width: 100%;
-    font-size: 75%;
+    font-size: 70%;
+    padding-top: 5%;
+}
+
+
+.come-to, .love {
+    width: 100%;
+    font-size: 70%;
 }
 
 #comp2 {
@@ -518,13 +629,76 @@ p {
 
 #love2 {
     width:50%;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 #contact-by {
     width: 60%;
     font-size: 75%;
 }
+
+.signup-inner {
+    top: -450px;
+    font-size: 60%;
+}
+#button {
+    width: 140px;
+}
+}
+
+/*For small screen sizes from 635px wide and down */
+@media screen and (max-width:635px) {
+
+    .logo {
+        font-size: 90%;
+        margin-top: 25px;
+    }
+    
+    .menu {
+        clear: right;
+        float: right;
+        margin-bottom: 20px;
+        font-size: 55%;
+        margin-top: 20px;
+    
+    }
+
+    #love2 {
+        width:40%;
+        line-height: 30px;
+    }
+    #comp2 {
+        width:40%;
+        line-height: 30px;
+    }
+
+    .signup2 {
+        font-size: 130%;
+    }
+    .signup-inner {
+        top: -330px;
+        font-size: 55%;
+    }
+
+    #button {
+        width: 130px;
+    }
+
+    #fname {
+        width: 65px;
+    }
+    #lname, #email {
+        width: 80px;
+    }
+    #about {
+        width: 100px;
+        height: 50px;
+    }
+    #footer-bar {
+        font-size: 65%;
+    }
+}
+
 
 /*For small screen sizes from 547px wide and down */
 @media screen and (max-width:547px) {
@@ -534,10 +708,68 @@ p {
         height: 130px;
     }
     
-    .logo {
-        margin-top: 20px;
-        margin: 0;
-        text-align: center;
-
+    .menu {
+      margin: 0;
+      padding-top: 10px;
+      float: left;
     }
+
+    .logo {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 100%;
+        float: left;
+    }
+
+#love2 > p {
+
+    margin-bottom: 20px;
+}
+    #contact-by {
+        width: 60%;
+    }
+    
+#reasons {
+    font-size: 90%;
+}
+    .signup-inner {
+        top: -330px;
+        font-size: 55%;
+    }
+    
+    #fname {
+        width: 50px;
+    }
+
+}
+
+/*For small screen sizes from 472px wide and down */
+@media screen and (max-width:472px) {
+
+    .signup-inner {
+        font-size: 50%;
+        top: -300px;
+    }
+
+    #button {
+        width: 120px;
+        height: 30px;
+    }
+
+.social {
+    font-size: 60%;
+}
+
+#love2 > p {
+    margin-bottom: 20px;
+}
+
+.contact {
+    font-size: 100%;
+}
+#contact-by {
+    top: -120px;
+}
+
+
 }
