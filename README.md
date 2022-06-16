@@ -25,21 +25,23 @@ We thank you for reading this and hope you have a nice tour of Accompany Me!
 
 # The stategy!
 
-..* As mentioned above the site is created for eyes who have seen much. 
-Thus the icons are bigger, the information is in different colored boxes with light backrounds for an easy read, and made with big font-sizes.
-..* The website is also made to fit very large screens since one of our main target users are people who most likely are inclined to have big screens on their computers and perhaps not so keen on using smartphones.
+* As mentioned above the site is created for eyes who have seen much. 
+Thus the icons are bigger, the information is in different colored boxes with light backrounds for an easy read, 
+and made with big font-sizes.
+* The website is also made to fit very large screens since one of our main target users are people who
+ most likely are inclined to have big screens on their computers and perhaps not so keen on using smartphones.
 So the website is made for a big range of screen sizes to fit our need for our general audience. 
 
 ## The Users Goals
 
-..* The user needs to find a daycare person for their pets -or-
-..* The user wants to find a pet for some dayly company.
+* The user needs to find a daycare person for their pets -or-
+* The user wants to find a pet for some dayly company.
 
 ## A New User
-..*Can easely find what our website is about.
-..*Can find images of pet's already looking for daycare.
-..*Can easely initiate first contact and write their needs and expectations of our service.
-..*Can contact our customer care for questions both before and after applying their own contact information and moving further into the process.
+* Can easely find what our website is about.
+* Can find images of pet's already looking for daycare.
+* Can easely initiate first contact and write their needs and expectations of our service.
+* Can contact our customer care for questions both before and after applying their own contact information and moving further into the process.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Strategy
@@ -102,10 +104,10 @@ Holds the name of the company creator with a c-rights icon.
 
 ## Possible upcoming features
 
-..*Ads on the bottom of the home page with pictures and descriptions of the different volunteers that are currently looking for a pet to take care of.
-..*A fifth menu option titled "Work as Courier" where users who are interested in working for us will be able to put in their contact information, submit a CV and other documents, as well as a link to the police website where they can apply for their load register that they will need to provide to us before being accepted as one of our couriers.
-..*A popup window for the signup page that will activate once the user has clicked "Let's find you a match."
-..*A sticky arrow icon that takes the user to the top of the page no matter where they are.
+* Ads on the bottom of the home page with pictures and descriptions of the different volunteers that are currently looking for a pet to take care of.
+* A fifth menu option titled "Work as Courier" where users who are interested in working for us will be able to put in their contact information, submit a CV and other    documents, as well as a link to the police website where they can apply for their load register that they will need to provide to us before being accepted as one of our couriers.
+* A popup window for the signup page that will activate once the user has clicked "Let's find you a match."
+* A sticky arrow icon that takes the user to the top of the page no matter where they are.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Design
@@ -113,15 +115,15 @@ Holds the name of the company creator with a c-rights icon.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Colours
 
-The colours are light and earthy to make the user calm. 
-The header is a soothing turqois that goes well with the colours of the hero image below.
-The colours of the dog in the hero image are used as a red thread throughout the page with a similiar colour scheme.
-Finally the signup page does the same but with the colours a bit darker and toned down, using the signup hero image's colours to further soothe the user and then link those colours with the submit button.
+* The colours are light and earthy to make the user calm. 
+* The header is a soothing turqois that goes well with the colours of the hero image below.
+* The colours of the dog in the hero image are used as a red thread throughout the page with a similiar colour scheme.
+* Finally the signup page does the same but with the colours a bit darker and toned down, using the signup hero image's colours to further soothe the user and then link those colours with the submit button.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Fonts
 
-I am using Merriweather, sans serif throughout the entire page for consistency, the font is soft and appealing to the users eye.
+* I am using Merriweather, sans serif throughout the entire page for consistency, the font is soft and appealing to the users eye.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
