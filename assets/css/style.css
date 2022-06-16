@@ -551,7 +551,8 @@ p {
 
     .personal {
         width: 25%;
-        font-size: 110%;
+        font-size: 100%;
+        top: 150px;
     }
 
     #head {
@@ -597,7 +598,7 @@ p {
 }
 
 .personal {
-    font-size: 75%;
+    font-size: 85%;
 }
 
 .company {
@@ -698,6 +699,11 @@ p {
     #footer-bar {
         font-size: 65%;
     }
+
+    .personal {
+    top: 120px;
+    font-size: 75%;
+    }
 }
 
 
@@ -721,17 +727,20 @@ p {
         font-size: 100%;
         float: left;
     }
+    .personal {
+        top: 140px;
+    }
 
-#love2 > p {
-
-    margin-bottom: 20px;
+    #love2 > p {
+         margin-bottom: 20px;
 }
+
     #contact-by {
         width: 60%;
     }
     
-#reasons {
-    font-size: 90%;
+    #reasons {
+          font-size: 90%;
 }
     .signup-inner {
         top: -330px;
@@ -746,6 +755,10 @@ p {
 
 /*For small screen sizes from 472px wide and down */
 @media screen and (max-width:472px) {
+
+    .personal {
+        font-size: 65%;
+    }
 
     .signup-inner {
         font-size: 50%;
@@ -778,7 +791,27 @@ p {
 /*For small screen sizes from 402px wide and down */
 @media screen and (max-width:402px) {
 
-#comp, 
+    .personal {
+        font-size: 60%;
+    }
+
+    #comp2 {
+        font-size: 160%;
+        width: 130px;
+        padding: 15px;
+    }
+
+    #come-to2 {
+        font-size: 160%;
+        width: 110px;
+        padding: 10px;
+    }
+
+    #love2 {
+        font-size: 160%;
+        width: 140px;
+        padding: 15px;
+    }
 
 
     .signup-inner {
@@ -824,6 +857,9 @@ p {
         width: 200px;
         padding: 15px;
     }
+    .personal {
+        font-size: 60%;
+    }
 }
 
 
@@ -844,6 +880,30 @@ p {
         padding: 5px 10px;
     }
 
+    .personal {
+         font-size: 50%;
+}
+
+    #contact-by {
+        font-size: 60%;
+}
+
+     #fname, #lname, #email {
+         height: 8px;
+     }
+
+     #about {
+         width: 60px;
+         height: 30px;
+     }
+
+     .signup-inner {
+         top: -220px;
+     }
+
 
 }
+
+/*For small screen sizes from 352px wide and down */
+@media screen and (max-width:352px)
 
