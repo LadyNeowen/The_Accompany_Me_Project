@@ -900,10 +900,4 @@ p {
      .signup-inner {
          top: -220px;
      }
-
-
 }
-
-/*For small screen sizes from 352px wide and down */
-@media screen and (max-width:352px)
-
