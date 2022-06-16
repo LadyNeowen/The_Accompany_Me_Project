@@ -193,6 +193,7 @@ p {
 .love > p {
     position: relative;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .contact {
@@ -239,15 +240,17 @@ p {
 }
 
 .social {
-
-    text-align: center;
+    float: right;
     display: inline;
-    letter-spacing: 40px;
+    justify-content: space-between;
     }
 
+    .fb, .tw {
+        letter-spacing: 40px;
+    }
+    
+
     #footer-c {
-        width: 200px;
-        height: 40px;
         padding-top: 60px;
         text-align: center;
         position: absolute;
@@ -306,7 +309,7 @@ p {
         color: #df5f0a;
         margin-left: 0;
         text-transform: uppercase;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 
     }
 
@@ -377,12 +380,6 @@ p {
         padding: 20px;
         text-align: center;
     }
-
-.company, .come-to, .love > p {
-    width: 50%;
-    left: 25%;
-    
-}
 
 }
 
@@ -670,6 +667,11 @@ p {
         width:40%;
         line-height: 30px;
     }
+    
+    #come-to2 {
+        width: 25%;
+        line-height: 30px;
+    }
 
     .signup2 {
         font-size: 130%;
@@ -776,15 +778,72 @@ p {
 /*For small screen sizes from 402px wide and down */
 @media screen and (max-width:402px) {
 
+#comp, 
+
 
     .signup-inner {
         top: -250px;
         font-size: 40%;
+        width: 50px;
     }
-   #signup-img {
-       width: 100%;
-   }
+
+    #fname {
+        width: 40px;
+    }
+
+    #lname, #email {
+        width: 50px;
+    }
+    
+    #about {
+        width: 70px;
+        height: 40px;
+    }
+
  #button {
      width: 100px;
+     height: 20px;
  }
 }
+
+/*For small screen sizes from 386px wide and down */
+@media screen and (max-width:386px) {
+    
+    #comp2, #come-to2, #love2 {
+        font-size: 160%;
+    }
+    #comp2 {
+        width: 125px;
+        padding: 15px;
+    }
+    #come-to2 {
+        width: 100px;
+        padding: 10px;
+    }
+    #love2 {
+        width: 200px;
+        padding: 15px;
+    }
+}
+
+
+/*For small screen sizes from 352px wide and down */
+@media screen and (max-width:352px) {
+
+    .logo {
+        font-size: 90%;
+    }
+
+    .menu {
+        font-size: 50%;
+        letter-spacing: 0;
+
+    }
+
+    .menu li a {
+        padding: 5px 10px;
+    }
+
+
+}
+
