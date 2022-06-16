@@ -75,9 +75,42 @@ Days and times written so the user can see during which hours they can expect a 
 -Gallery-
 
 Different images showing the various options of pets in our pet-pool who need a day-care person,
-but also an implementation of what pets that Accompany me accept, that we can help the user find a day-care person for.
+but also an indication of what pets that Accompany me accept, that we can help the user find a day-care person for.
 
--
+-Signup-
+
+An easy signup page where the user can put in their:
+First name
+Last name
+Email address
+Write who they are and what they are looking for specifically through a collaboration with us.
+
+The submit button holds a text of "Let's find you a match"
+And its backround changes color when hovered before clicking.
+
+-Footer-
+Holds navigation links to 3 different external social-media websites.
+Holds the name of the company creator with a c-rights icon.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-Possible upcoming features-
+
+..*Ads on the bottom of the home page with pictures and descriptions of the different volunteers that are currently looking for a pet to take care of.
+..*A fifth menu option titled "Work as Courier" where users who are interested in working for us will be able to put in their contact information, submit a CV and other documents, as well as a link to the police website where they can apply for their load register that they will need to provide to us before being accepted as one of our couriers.
+..*A popup window for the signup page that will activate once the user has clicked "Let's find you a match."
+..*A sticky arrow icon that takes the user to the top of the page no matter where they are.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-Colours-
+
+The colours are light and earthy to make the user calm. 
+The header is a soothing turqois that goes well with the colours of the hero image below.
+The colours of the dog in the hero image are used as a red thread throughout the page with a similiar colour scheme.
+Finally the signup page does the same but with the colours a bit darker and toned down, using the signup hero image's colours to further soothe the user and then link those colours with the submit button.
+
+
 
 
 Used https://www.jotform.com/help/118-how-to-customize-the-submit-button-with-css/ for help with submit button.
