@@ -144,6 +144,38 @@ The customer easely finds the contact information where they can send further qu
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Validating HTML 5 and CSS 3
 
-Used https://www.jotform.com/help/118-how-to-customize-the-submit-button-with-css/ for help with submit button.
-https://www.w3docs.com/snippets/html/how-to-add-an-onclick-effect-in-css.html =II=
+* Tested with The [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/). Congratulations! No Error Found.
+* Tested with The [W3C Markup Validation service](https://validator.w3.org/). No errors or warnings to show.
+* Google Chrome developer tool to find any remaining errors.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Bugs and fixes
+
+* Noticed I had issues with my submit button not working properly so I went to this website to get the information right.
+ https://www.jotform.com/help/118-how-to-customize-the-submit-button-with-css/
+* Issues with my footer bar shifting to the left, asked for help on slack and got help from Ronan McGill who pointed out it might be because of my letter-spacing,
+changing this to only apply for id's made for first and second icon (.fb, .tw) fixed the issue.
+* Ran into some other trouble with my margin and padding throughout the page, got help from my friend Tyler Risinger who then helped me apply at top of my style.css and explained why. 
+*{
+    margin:0;
+    padding:0;
+}
+
+* Trouble with my twitter icon not being clickable due to padding top from the Copyright div, my friend Tyler Risinger helped me by showing me that adding 
+pointer-events:none; to my copyright ID, helped fix the issue.
+
+* Had issue with media screen sizes from 547px wide and down.
+Was not able to change size or do any other changes that prevented the page from crashing at this size.
+Tyler Risinger then showed me that by doing this entry to the header would fix the problem and allow my screen to scale down without crashing.
+    #head {
+        flex-flow: column;
+        height: 130px;
+    }
+* Ran the The W3C CSS Validation service and The W3C Markup Validation service for all 3 pages and found errors due to spacing in two of the image names, changing the spaces to a underline fixed the problem.
+
+* Overall I have recived a great deal of guidance and help from my good friend Tyler Risinger. 
+He has been somewhat of a mentor for me, someone I could ask for directions and help when I did not understand why some things did not work the way I wanted.
+He helped me by showing me, while explaining why he did what he did and what the changes would result in. 
+I believe I have learned many things from him during this time and I am very grateful to him.
