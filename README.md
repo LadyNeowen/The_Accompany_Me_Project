@@ -20,6 +20,7 @@ Our goal is to make you feel at ease with your collaboration with us, and such o
 
 We thank you for reading this and hope you have a nice tour of Accompany Me!
 
+![alt text](assets/images/Am_I_responsive%20pic.PNG "Media responsiveness")
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -57,7 +58,7 @@ The logo is responsive with a link directing them to he home page from any other
 Links to different pages, Home, Gallery, Signup.
 Links contact to the contact section on the home page no matter what page you are on.
 Menu items change backround colour when hovered over.
-
+![alt text](assets/images/navigation.PNG "Navigation")
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Personal pet care
 
@@ -70,7 +71,7 @@ Hero image also shows an indication for the user as to what it could look like t
 Asks the user a question to pull them in for further interest, as well as explaining how easy it can be.
 Describes in more detail what kind of service we provide for both pet owners and volunteers.
 Motivational text implying even further how easy it is to take the first steps into making every-day life a little better.
-
+![alt text](assets/images/reasons.PNG "Reasons")
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Contact
 
@@ -99,7 +100,7 @@ And its backround changes color when hovered before clicking.
 ## Footer
 Holds navigation links to 3 different external social-media websites.
 Holds the name of the company creator with a c-rights icon.
-
+![alt text](assets/images/footer.PNG "Footer_and_contact")
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Possible upcoming features
@@ -112,14 +113,14 @@ Holds the name of the company creator with a c-rights icon.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Design
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Colours
 
 * The colours are light and earthy to make the user calm. 
 * The header is a soothing turqois that goes well with the colours of the hero image below.
 * The colours of the dog in the hero image are used as a red thread throughout the page with a similiar colour scheme.
 * Finally the signup page does the same but with the colours a bit darker and toned down, using the signup hero image's colours to further soothe the user and then link those colours with the submit button.
-
+* I mainly used these hex colours for my page.
+* ![Hex Colours](assets/images/Hex_colours.png "Hex colours")
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Fonts
 
@@ -215,6 +216,14 @@ You guys are the best, thank you! <3
 * Fonts and icons are taken from [FontAwesome](https://fontawesome.com/v5/search)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Links to other used pages
 
-# Thank you for popping in! Have a great day!
-## // LadyNeowen
+* [Am I responsive](https://ui.dev/amiresponsive)
+* [Hex Colours for image](https://www.google.com/search?q=%231cafaf&rlz=1C1CHBF_svSE874SE874&ei=p9OrYoC7KZGOxc8P96yKwA8&ved=0ahUKEwjAquXypbP4AhURR_EDHXeWAvgQ4dUDCA8&uact=5&oq=%231cafaf&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGAFKBAhGGABQygpYygpgjg9oAXAAeACAATyIATySAQExmAEAoAEBwAEB&sclient=gws-wiz)
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+
+
+
+## Thank you for popping in! Have a great day!
+### // LadyNeowen
