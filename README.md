@@ -195,6 +195,7 @@ Tyler Risinger then showed me that by doing this entry to the header would fix t
 # Deployment 
 
 * Site will be deployed to Github Pages
+* This site is published at [https://ladyneowen.github.io/The_Accompany_Me_Project/](https://ladyneowen.github.io/The_Accompany_Me_Project/)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
