@@ -49,16 +49,20 @@ So the website is made for a big range of screen sizes to fit our need for our g
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Header
 
-The company name logo and hero image are both responsive and change in size depending on different viewports.
-The logo is responsive with a link directing them to he home page from any other page on the website.
+* The company name logo and hero image are both responsive and change in size depending on different viewports.
+* The logo is responsive with a link directing them to he home page from any other page on the website.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Navigation
 
-Links to different pages, Home, Gallery, Signup.
-Links contact to the contact section on the home page no matter what page you are on.
-Menu items change backround colour when hovered over.
+* Links to different pages, Home, Gallery, Signup.
+* Links contact to the contact section on the home page no matter what page you are on.
+* Menu items change backround colour when hovered over.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 ![alt text](assets/images/navigation.PNG "Navigation")
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Personal pet care
 
@@ -68,10 +72,13 @@ Hero image also shows an indication for the user as to what it could look like t
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Reasons
 
-Asks the user a question to pull them in for further interest, as well as explaining how easy it can be.
-Describes in more detail what kind of service we provide for both pet owners and volunteers.
-Motivational text implying even further how easy it is to take the first steps into making every-day life a little better.
+* Asks the user a question to pull them in for further interest, as well as explaining how easy it can be.
+* Describes in more detail what kind of service we provide for both pet owners and volunteers.
+* Motivational text implying even further how easy it is to take the first steps into making every-day life a little better.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![alt text](assets/images/reasons.PNG "Reasons")
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Contact
 
@@ -87,20 +94,24 @@ but also an indication of what pets that Accompany me accept, that we can help t
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Signup
 
-An easy signup page where the user can put in their:
-First name
-Last name
-Email address
-Write who they are and what they are looking for specifically through a collaboration with us.
+* An easy signup page where the user can put in their:
+* First name
+* Last name
+* Email address
+* Write who they are and what they are looking for specifically through a collaboration with us.
 
-The submit button holds a text of "Let's find you a match"
-And its backround changes color when hovered before clicking.
+* The submit button holds a text of "Let's find you a match"
+* And its backround changes color when hovered before clicking.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Footer
-Holds navigation links to 3 different external social-media websites.
-Holds the name of the company creator with a c-rights icon.
+* Holds navigation links to 3 different external social-media websites.
+* Holds the name of the company creator with a c-rights icon.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![alt text](assets/images/footer.PNG "Footer_and_contact")
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Possible upcoming features
@@ -120,7 +131,10 @@ Holds the name of the company creator with a c-rights icon.
 * The colours of the dog in the hero image are used as a red thread throughout the page with a similiar colour scheme.
 * Finally the signup page does the same but with the colours a bit darker and toned down, using the signup hero image's colours to further soothe the user and then link those colours with the submit button.
 * I mainly used these hex colours for my page.
-* ![Hex Colours](assets/images/Hex_colours.png "Hex colours")
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![Hex Colours](assets/images/Hex_colours.png "Hex colours")
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Fonts
 
