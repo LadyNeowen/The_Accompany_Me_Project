@@ -175,7 +175,46 @@ Tyler Risinger then showed me that by doing this entry to the header would fix t
     }
 * Ran the The W3C CSS Validation service and The W3C Markup Validation service for all 3 pages and found errors due to spacing in two of the image names, changing the spaces to a underline fixed the problem.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Deployment 
+
+* Site will be deployed to Github Pages
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Credits
+
+* First I would like to thank my new study buddy and very good friend Laura Taipale who's words of encouragement has helped me get through doing this while undergoing a pretty difficult time in my life. 
+She motivates me, helps me with tips and has helped me by sharing some of her work and her own ways of fixing and building her code.
+Thank you for finding me and for always having the right words to say, both in and out of school. 
+
 * Overall I have recived a great deal of guidance and help from my good friend Tyler Risinger. 
 He has been somewhat of a mentor for me, someone I could ask for directions and help when I did not understand why some things did not work the way I wanted.
 He helped me by showing me, while explaining why he did what he did and what the changes would result in. 
 I believe I have learned many things from him during this time and I am very grateful to him.
+
+* I would also like to thank Ethan Pitt from the slack community, his help with the submit form kept me from pulling my own hair out.
+He even called me from work and helped to guide me through what was one of my worst days. 
+"Go grab a cup of coffee, step away from this for a while and i'll call you when I get to work." He said.
+If it had not been for him that day I dont know what I would have done! 
+So thank you Ethan for your kindness and eagerness to help.
+
+* I would also like to thank Ronan McGill who helped me see the flaw in my design which after what could have been hours trying to figure out what was wrong, made the letters in my code do the mumbo jumbo. 
+
+You guys are the best, thank you! <3
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Media 
+* Photos of elderly are bought from [Unsplash](https://unsplash.com/)
+* Photos of dogs and other pets are taken from my mothers own facebook page from the days when she worked as a dog trainer.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Icons
+* Fonts and icons are taken from [FontAwesome](https://fontawesome.com/v5/search)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Thank you for popping in! Have a great day!
+## // LadyNeowen
